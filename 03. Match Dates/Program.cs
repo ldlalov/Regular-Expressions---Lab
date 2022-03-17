@@ -17,6 +17,7 @@ namespace _02._Match_Phone_Number
                 var month = date.Groups["month"].Value;
                 var year = date.Groups["year"].Value;
                 Console.WriteLine($"Day: {day}, Month: {month}, Year: {year}");
+
             }
         }
     }
